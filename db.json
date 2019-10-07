@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "tushar82das@gmail.com",
+      "password": "test@123",
+      "phone": "7377163306",
+      "address": "Bangalore"
+    },
+    {
+      "id": 2,
+      "email": "tushar83das@gmail.com",
+      "password": "test@123",
+      "phone": "7377163308",
+      "address": "Bangalore"
+    }
+  ],
+  "stocks": [
+    {
+		"stockId": 1,
+		"stockName":"Mock Stock-01",
+		"unitPrice":1000
+    },
+    {
+		"stockId": 2,
+		"stockName":"Mock Stock-02",
+		"unitPrice":2000
+    }
+  ]
+}
+
+

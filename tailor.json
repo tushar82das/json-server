@@ -1,0 +1,257 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tushar Das",
+      "email": "tushar82das@gmail.com",
+      "password": "test@123",
+      "phone": "7377163306",
+      "address": "Bangalore",
+      "employee_count": 0,
+      "rating": 0,
+      "shop_image": "",
+      "role": "User"
+    },
+    {
+      "id": 2,
+      "name": "Broadway Tailoring Shop",
+      "email": "tailor1@gmail.com",
+      "password": "test@123",
+      "phone": "7377163308",
+      "address": "Bangalore",
+      "employee_count": 40,
+      "rating": 4,
+      "shop_image": "shop-1.jpg",
+      "role": "Tailor"
+    },
+    {
+      "id": 3,
+      "name": "Seasons Tailor Shop",
+      "email": "tailor2@gmail.com",
+      "password": "test@123",
+      "phone": "7377163308",
+      "address": "Bangalore",
+      "employee_count": 30,
+      "rating": 3,
+      "shop_image": "shop-2.jpg",
+      "role": "Tailor"
+    },
+    {
+      "id": 4,
+      "name": "Imran Tailor Shop",
+      "email": "tailor3@gmail.com",
+      "password": "test@123",
+      "phone": "7377163308",
+      "address": "Hyderabad",
+      "employee_count": 20,
+      "rating": 4,
+      "shop_image": "shop-1.jpg",
+      "role": "Tailor"
+    },
+    {
+      "id": 5,
+      "name": "Kumar Tailor Shop",
+      "email": "tailor4@gmail.com",
+      "password": "test@123",
+      "phone": "7377163308",
+      "address": "Chennai",
+      "rating": 4,
+      "shop_image": "shop-3.jpg",
+      "role": "Tailor"
+    }
+  ],
+  "orders": [
+    {
+      "user_id": 1,
+      "tailor_id": 4,
+      "stitch_category": 2,
+      "stitch_sub_category": 2,
+      "stitch_cost": 800,
+      "appointment_date": "Wed Oct 02 2019 00:00:00 GMT+0530 (India Standard Time)",
+      "measurements": {
+        "length": 0,
+        "chest": 0,
+        "hip": 0,
+        "sheet": 0
+      },
+      "status": 3,
+      "id": 1
+    }
+  ],
+  "stitch_category": [
+    {
+      "id": 1,
+      "name": "Men Wear",
+      "image": "men-ware.jpg",
+      "sub_category": [
+        {
+          "id": 1,
+          "cat_id": 1,
+          "name": "Shirts",
+          "image": "stitching_men_shirts.jfif",
+          "price": 1200
+        },
+        {
+          "id": 2,
+          "cat_id": 1,
+          "name": "Pants",
+          "image": "stitching_men_pants.jpg",
+          "price": 1500
+        },
+        {
+          "id": 3,
+          "cat_id": 1,
+          "name": "Blazers",
+          "image": "stitching_men_blazers.jfif",
+          "price": 4000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Women Wear",
+      "image": "women-ware.jpg",
+      "sub_category": [
+        {
+          "id": 1,
+          "cat_id": 2,
+          "name": "Salwar",
+          "image": "stitching_women_salwar.jpg",
+          "price": 1000
+        },
+        {
+          "id": 2,
+          "cat_id": 2,
+          "name": "Kurti",
+          "image": "stitching_women_kurti.jpg",
+          "price": 800
+        },
+        {
+          "id": 3,
+          "cat_id": 2,
+          "name": "Blouse",
+          "image": "stitching_women_blawse.jpg",
+          "price": 500
+        }
+      ]
+    }
+  ],
+  "stitch_sub_category": [
+    {
+      "id": 1,
+      "cat_id": 1,
+      "name": "Shirts",
+      "image": "",
+      "price": 1200
+    },
+    {
+      "id": 2,
+      "cat_id": 1,
+      "name": "Pants",
+      "image": "",
+      "price": 1500
+    },
+    {
+      "id": 3,
+      "cat_id": 1,
+      "name": "Blazers",
+      "image": "",
+      "price": 4000
+    },
+    {
+      "id": 4,
+      "cat_id": 2,
+      "name": "Salwar Kameez",
+      "image": "",
+      "price": 1000
+    },
+    {
+      "id": 5,
+      "cat_id": 2,
+      "name": "Kurti",
+      "image": "",
+      "price": 800
+    },
+    {
+      "id": 6,
+      "cat_id": 2,
+      "name": "Blouse",
+      "image": "",
+      "price": 500
+    }
+  ],
+  "crud-users": [
+    {
+      "id": 1,
+      "name": "Tushar Das-2",
+      "email": "tushar82das@gmail.com",
+      "password": "test@123",
+      "phone": "7377163666",
+      "address": "Bangalore"
+    },
+    {
+      "id": 2,
+      "name": "Sukumar Sailem",
+      "email": "sukumar123@gmail.com",
+      "password": "test@123",
+      "phone": "7377163666",
+      "address": "Bangalore"
+    },
+    {
+      "name": "Imran",
+      "email": "inram@gmail.com",
+      "password": "test@123",
+      "phone": "8787878777",
+      "address": "Bangalore",
+      "id": 4
+    },
+    {
+      "name": "Tushar",
+      "email": "tushar123@gmail.com",
+      "password": "test@123",
+      "phone": "8778787778",
+      "address": "Balasore",
+      "id": 5
+    },
+    {
+      "name": "Priyanka12",
+      "email": "priyanka@gmail.com",
+      "password": "wewew",
+      "phone": "1212121212",
+      "address": "Baripada",
+      "id": 6
+    },
+    {
+      "name": "xyz",
+      "email": "xyz@gmail.com",
+      "password": "xyz123",
+      "phone": "9090909090",
+      "address": "Test Address",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "address": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "address": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "address": "",
+      "id": 10
+    }
+  ]
+}
